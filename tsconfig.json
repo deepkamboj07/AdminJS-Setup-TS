@@ -1,4 +1,5 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
       "esModuleInterop": true,
       "target":"ESNext",
@@ -18,5 +19,13 @@
       "jsx": "react"
     },
     "lib": ["es2015"],
-    "exclude": ["node_modules"]
+    "include": [
+      "./**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "./plugins/**/*",
+        "./typings/**/*",
+        "./dist/**/*" // This is what fixed it!
+    ]
   }
