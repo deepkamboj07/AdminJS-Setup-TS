@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "target":"ESNext",
+      "moduleResolution": "NodeNext",
+      "sourceMap": true,
+      "outDir": "dist",
+      "allowJs": true,
+      "incremental": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "removeComments": true,
+      "declaration": false,
+      "module": "NodeNext",
+      "jsx": "react"
+    },
+    "lib": ["es2015"],
+    "exclude": ["node_modules"]
+  }
